@@ -95,21 +95,21 @@ export const getSuggestionsFromRange = (range: IRange): languages.CompletionItem
             }
         },
         {
-            label: "year",
+            label: "getyear",
             kind: FUNCTION,
-            insertText: "year",
+            insertText: "getyear",
             range: range,
             documentation: {
-                value: "The operator **year** returns the year of the given date/time period.  \n\n **Syntax** \n\n    year(op) "
+                value: "The operator **getyear** returns the year of the given date/time period.  \n\n **Syntax** \n\n    year(op) "
             }
         },
         {
-            label: "month",
+            label: "getmonth",
             kind: FUNCTION,
-            insertText: "month",
+            insertText: "getmonth",
             range: range,
             documentation: {
-                value: "The operator **month** returns the month of the given date/time period (between 1 and 12).   \n\n **Syntax** \n\n    month(op) "
+                value: "The operator **getmonth** returns the month of the given date/time period (between 1 and 12).   \n\n **Syntax** \n\n    month(op) "
             }
         },
         {
